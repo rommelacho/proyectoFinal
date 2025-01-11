@@ -1,0 +1,20 @@
+[
+    {
+        "titulo": "DESCRIPCION DE LA ENCUESTA",       
+        "contenido": "Esta encuesta está diseñada para recopilar información sobre los gustos musicales de los participantes. Se centra en descubrir cuáles son los géneros musicales favoritos, los artistas preferidos y los hábitos de escucha de los usuarios. Esta información es fundamental para entender mejor las preferencias musicales de las personas y proporcionar datos valiosos sobre tendencias musicales"
+    },
+    {
+        "titulo": "Propósito del proyecto", 
+        "contenido": "El Propósito del proyecto es entender mejor los gustos musicales de los participantes y utilizar esta información para:<br> <li> Ofrecer recomendaciones musicales personalizadas basadas en los gustos individuales.<br> <li> Ayudar a los artistas y productores a conocer mejor a su audiencia y crear contenido alineado con sus preferencias. <br> <li>Identificar tendencias actuales en la música y proporcionar una visión general del panorama musical. <br> <li>Crear una comunidad de amantes de la música donde puedan compartir sus gustos y descubrimientos."
+    },
+    {
+        "titulo": "Beneficios de participar",
+        "contenido" : "Los Beneficios de participar en la encuesta incluyen: <br> <li>Acceso a recomendaciones musicales personalizadas que se ajustan a tus gustos. <br> <li>Listas de reproducción curadas específicamente para ti. <br> <li>Oportunidad de descubrir nuevos artistas y géneros musicales. <br> <li>Recibir estadísticas y gráficos interactivos que muestran cómo tus preferencias se comparan con las de otros participantes. <br> <li>Participar en una comunidad de amantes de la música y compartir tus descubrimientos."
+    },
+    {
+        "titulo": "Preguntas frecuentes",
+        
+
+        "contenido" : "En la sección de Preguntas frecuentes, \n  se abordan las siguientes inquietudes: <br>Cómo modificar respuestas: <br> <li>Puedes cambiar tus respuestas una vez enviadas siguiendo las instrucciones en la sección de configuración de la encuesta.<br> <li> Privacidad de datos: La privacidad de tus datos está garantizada y se manejan con total confidencialidad. No se compartirán con terceros sin tu consentimiento. <li>Consultar resultados: Puedes consultar los resultados de la encuesta y ver estadísticas detalladas a través de tu perfil en la plataforma. Contactar soporte: \n <br> <br> Si tienes preguntas adicionales o problemas, puedes contactar al equipo de soporte a través del formulario de contacto disponible en la plataforma. \n Espero que estas respuestas sean lo que necesitabas. Si tienes más preguntas o necesitas más detalles, ¡no dudes en decírmelo! 🎶😊"
+    }
+]

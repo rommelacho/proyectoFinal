@@ -1,0 +1,9 @@
+body {
+    font-family: 'Arial', sans-serif;
+        color: #343a40;
+    background-image: url('../IMAGENES/8cont.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}

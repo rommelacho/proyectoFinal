@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <es>
+        <item>
+            <nombre>Inicio</nombre>
+            <link>inicio/inicio.html</link>
+            <sub1>descripcion de la encuesta</sub1>
+            <sub2>Propósito del proyecto</sub2>
+            <sub3>Beneficios de participar</sub3>
+            <sub4>Preguntas frecuentes</sub4>
+            <link1>inicio/inicio.html</link1>
+            <link2>inicio/inicio.html</link2>
+            <link3>inicio/inicio.html</link3>
+        </item>
+        <item>
+            <nombre>Formulario de Encuesta</nombre>
+            <link>formularioe/formulario1.html</link>
+            <sub1>Elección de géneros musicales favoritos</sub1>
+            <sub2>Preferencia de artistas y bandas</sub2>
+            <sub3>Editar selecciones</sub3>
+            <sub4>Agregar Artistas</sub4>
+            <link1>formularioe/formulario2.html</link1>
+            <link2>formularioe/formulario3.html</link2>
+            <link3>formularioe/formulario4.html</link3>
+        </item>
+        <item>
+            <nombre>Resultados</nombre>
+            <link>resultados/resultados.html</link>
+            <sub1>Estadísticas sobre preferencias musicales</sub1>
+            <sub2>Gráficos interactivos sobre géneros</sub2>
+            <sub3>Comparación con otros participantes</sub3>
+            <sub4>Tendencias actuales</sub4>
+            <link1>resultados/resultados.html</link1>
+            <link2>resultados/resultados.html</link2>
+            <link3>resultados/resultados.html</link3>
+        </item>
+        <item>
+            <nombre>Recomendaciones Musicales</nombre>
+            <link>recomendaciones/recomendaciones.html</link>
+            <sub1>Sugerencias de música según gustos</sub1>
+            <sub2>Listas de reproducción personalizadas</sub2>
+            <sub3>Nuevos artistas o géneros para explorar</sub3>
+            <sub4>Videos de conciertos o clips</sub4>
+            <link1>recomendaciones/recomendaciones.html</link1>
+            <link2>recomendaciones/recomendaciones.html</link2>
+            <link3>recomendaciones/recomendaciones.html</link3>
+        </item>
+        <item>
+            <nombre>Comunidad</nombre>
+            <link>comunidad/comunidad.html</link>
+            <sub1>Foros sobre música</sub1>
+            <sub2>Grupos de fans de géneros</sub2>
+            <sub3>Conciertos y eventos musicales</sub3>
+            <sub4>Encuentros para compartir música</sub4>
+            <link1>comunidad/comunidad.html</link1>
+            <link2>comunidad/comunidad.html</link2>
+            <link3>comunidad/comunidad.html</link3>
+        </item>
+        <item>
+            <nombre>Extras</nombre>
+            <link>extras/extras.html</link>
+            <sub1>Consejos para descubrir música nueva</sub1>
+            <sub2>Entrevistas con artistas</sub2>
+            <sub3>Resúmenes de tendencias musicales</sub3>
+            <sub4>Videos educativos sobre géneros musicales</sub4>
+            <link1>extras/extras.html</link1>
+            <link2>extras/extras.html</link2>
+            <link3>extras/extras.html</link3>
+        </item>
+        <item>
+            <nombre>FAQ</nombre>
+            <link>faq/faq.html</link>
+            <sub1>Cómo modificar respuestas</sub1>
+            <sub2>Privacidad de datos</sub2>
+            <sub3>Consultar resultados</sub3>
+            <sub4>Contactar soporte</sub4>
+            <link1>faq/faq.html</link1>
+            <link2>faq/faq.html</link2>
+            <link3>faq/faq.html</link3>
+        </item>
+        <item>
+            <nombre>Contacto</nombre>
+            <link>contacto/contacto.html</link>
+            <sub1>Formulario de contacto</sub1>
+            <sub2>Redes sociales</sub2>
+            <sub3>Feedback y sugerencias</sub3>
+            <sub4></sub4>
+            <link1>contacto/contacto.html</link1>
+            <link2>contacto/contacto.html</link2>
+            <link3>contacto/contacto.html</link3>
+        </item>
+    </es>
+    <en>
+        <item>
+            <nombre>Home</nombre>
+            <link>inicio/inicio.html</link>
+            <sub1>Survey Description</sub1>
+            <sub2>Project Purpose</sub2>
+            <sub3>Participation Benefits</sub3>
+            <sub4>Frequently Asked Questions</sub4>
+            <link1>inicio/inicio.html</link1>
+            <link2>inicio/inicio.html</link2>
+            <link3>inicio/inicio.html</link3>
+        </item>
+        <item>
+            <nombre>Survey Form</nombre>
+            <link>formularioe/formulario1.html</link>
+            <sub1>Favorite Music Genres Selection</sub1>
+            <sub2>Preference for Artists and Bands</sub2>
+            <sub3>Edit Selections</sub3>
+            <sub4>Answer Confirmation</sub4>
+            <link1>formularioe/formulario2.html</link1>
+            <link2>formularioe/formulario3.html</link2>
+            <link3>formularioe/formulario4.html</link3>
+        </item>
+        <item>
+            <nombre>Results</nombre>
+            <link>resultados/resultados.html</link>
+            <sub1>Statistics on Music Preferences</sub1>
+            <sub2>Interactive Genre Charts</sub2>
+            <sub3>Comparison with Other Participants</sub3>
+            <sub4>Current Trends</sub4>
+            <link1>resultados/resultados.html</link1>
+            <link2>resultados/resultados.html</link2>
+            <link3>resultados/resultados.html</link3>
+        </item>
+        <item>
+            <nombre>Music Recommendations</nombre>
+            <link>recomendaciones/recomendaciones.html</link>
+            <sub1>Music Suggestions Based on Tastes</sub1>
+            <sub2>Personalized Playlists</sub2>
+            <sub3>New Artists or Genres to Explore</sub3>
+            <sub4>Concert Videos or Clips</sub4>
+            <link1>recomendaciones/recomendaciones.html</link1>
+            <link2>recomendaciones/recomendaciones.html</link2>
+            <link3>recomendaciones/recomendaciones.html</link3>
+        </item>
+        <item>
+            <nombre>Community</nombre>
+            <link>comunidad/comunidad.html</link>
+            <sub1>Music Forums</sub1>
+            <sub2>Genre Fan Groups</sub2>
+            <sub3>Concerts and Music Events</sub3>
+            <sub4>Music Sharing Meetups</sub4>
+            <link1>comunidad/comunidad.html</link1>
+            <link2>comunidad/comunidad.html</link2>
+            <link3>comunidad/comunidad.html</link3>
+        </item>
+        <item>
+            <nombre>Extras</nombre>
+            <link>extras/extras.html</link>
+            <sub1>Tips for Discovering New Music</sub1>
+            <sub2>Artist Interviews</sub2>
+            <sub3>Music Trends Summaries</sub3>
+            <sub4>Educational Videos on Music Genres</sub4>
+            <link1>extras/extras.html</link1>
+            <link2>extras/extras.html</link2>
+            <link3>extras/extras.html</link3>
+        </item>
+        <item>
+            <nombre>FAQ</nombre>
+            <link>faq/faq.html</link>
+            <sub1>How to Modify Responses</sub1>
+            <sub2>Data Privacy</sub2>
+            <sub3>View Results</sub3>
+            <sub4>Contact Support</sub4>
+            <link1>faq/faq.html</link1>
+            <link2>faq/faq.html</link2>
+            <link3>faq/faq.html</link3>
+        </item>
+        <item>
+            <nombre>Contact</nombre>
+            <link>contacto/contacto.html</link>
+            <sub1>Contact Form</sub1>
+            <sub2>Social Media</sub2>
+            <sub3>Feedback and Suggestions</sub3>
+            <sub4></sub4>
+            <link1>contacto/contacto.html</link1>
+            <link2>contacto/contacto.html</link2>
+            <link3>contacto/contacto.html</link3>
+        </item>
+    </en>
+    <jp>
+        <item>
+            <nombre>ホーム</nombre>
+            <link>inicio/inicio.html</link>
+            <sub1>アンケートの説明</sub1>
+            <sub2>プロジェクトの目的</sub2>
+            <sub3>参加のメリット</sub3>
+            <sub4>よくある質問</sub4>
+            <link1>inicio/inicio.html</link1>
+            <link2>inicio/inicio.html</link2>
+            <link3>inicio/inicio.html</link3>
+        </item>
+        <item>
+            <nombre>アンケートフォーム</nombre>
+            <link>formularioe/formulario1.html</link>
+            <sub1>好きな音楽ジャンルの選択</sub1>
+            <sub2>アーティストとバンドの好み</sub2>
+            <sub3>選択の編集</sub3>
+            <sub4>回答の確認</sub4>
+            <link1>formularioe/formulario2.html</link1>
+            <link2>formularioe/formulario3.html</link2>
+            <link3>formularioe/formulario4.html</link3>
+        </item>
+        <item>
+            <nombre>結果</nombre>
+            <link>resultados/resultados.html</link>
+            <sub1>音楽の好みに関する統計</sub1>
+            <sub2>ジャンルのインタラクティブなグラフ</sub2>
+            <sub3>他の参加者との比較</sub3>
+            <sub4>現在のトレンド</sub4>
+            <link1>resultados/resultados.html</link1>
+            <link2>resultados/resultados.html</link2>
+            <link3>resultados/resultados.html</link3>
+        </item>
+        <item>
+            <nombre>音楽のおすすめ</nombre>
+            <link>recomendaciones/recomendaciones.html</link>
+            <sub1>好みに基づく音楽の提案</sub1>
+            <sub2>個人に合わせたプレイリスト</sub2>
+            <sub3>新しいアーティストやジャンルを探索</sub3>
+            <sub4>コンサート動画やクリップ</sub4>
+            <link1>recomendaciones/recomendaciones.html</link1>
+            <link2>recomendaciones/recomendaciones.html</link2>
+            <link3>recomendaciones/recomendaciones.html</link3>
+        </item>
+        <item>
+            <nombre>コミュニティ</nombre>
+            <link>comunidad/comunidad.html</link>
+            <sub1>音楽フォーラム</sub1>
+            <sub2>ジャンルファングループ</sub2>
+            <sub3>コンサートと音楽イベント</sub3>
+            <sub4>音楽を共有するミーティング</sub4>
+            <link1>comunidad/comunidad.html</link1>
+            <link2>comunidad/comunidad.html</link2>
+            <link3>comunidad/comunidad.html</link3>
+        </item>
+        <item>
+            <nombre>エクストラ</nombre>
+            <link>extras/extras.html</link>
+            <sub1>新しい音楽を発見するためのヒント</sub1>
+            <sub2>アーティストのインタビュー</sub2>
+            <sub3>音楽トレンドの要約</sub3>
+            <sub4>音楽ジャンルに関する教育動画</sub4>
+            <link1>extras/extras.html</link1>
+            <link2>extras/extras.html</link2>
+            <link3>extras/extras.html</link3>
+        </item>
+        <item>
+            <nombre>FAQ</nombre>
+            <link>faq/faq.html</link>
+            <sub1>回答を変更する方法</sub1>
+            <sub2>データのプライバシー</sub2>
+            <sub3>結果を確認する</sub3>
+            <sub4>サポートに連絡する</sub4>
+            <link1>faq/faq.html</link1>
+            <link2>faq/faq.html</link2>
+            <link3>faq/faq.html</link3>
+        </item>
+        <item>
+            <nombre>コンタクト</nombre>
+            <link>contacto/contacto.html</link>
+            <sub1>お問い合わせフォーム</sub1>
+            <sub2>ソーシャルメディア</sub2>
+            <sub3>フィードバックと提案</sub3>
+            <sub4></sub4>
+            <link1>contacto/contacto.html</link1>
+            <link2>contacto/contacto.html</link2>
+            <link3>contacto/contacto.html</link3>
+        </item>
+
+    </jp>
+
+</menu>

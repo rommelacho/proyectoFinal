@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    background-image: url('../IMAGENES/6ext.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+main {
+    background-color: rgba(224, 232, 253, 0.363);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: left;
+}
+h1{
+    color: rgb(0, 59, 253);
+    text-decoration:#eb4e1e;
+   
+}
+.parrafo {
+    padding: 10px;
+    max-width: 400px;
+    align-items: left;
+    text-align: left;
+    margin: 20px;
+    color: black;
+}
+

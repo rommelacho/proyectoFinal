@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilofor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+
+<body>
+    <div class="container-md">
+    <table id="datos" class="table table-striped table-hover">
+        <thead>
+                <tr data-aos="zoom-in" data-aos-delay="100">
+                <th scope="col">#</th>
+                <th scope="col">Estilo</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tema</th>
+                <th scope="col">Año</th>
+                <th scope="col">Duración</th>
+                <th scope="col">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Contenido cargado desde JSON -->
+        </tbody>
+    </table>
+</div>
+    <!-- Ventana modal para editar -->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Editar Registro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <div class="mb-3">
+                            <label for="editEstilo" class="form-label">Estilo</label>
+                            <input type="text" class="form-control" id="editEstilo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="editNombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editTitulo" class="form-label">Titulo</label>
+                            <input type="text" class="form-control" id="editTitulo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editAño" class="form-label">Año</label>
+                            <input type="text" class="form-control" id="editAño">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editDuracion" class="form-label">Duración</label>
+                            <input type="text" class="form-control" id="editDuracion">
+                        </div>
+                        <button type="button" class="btn btn-primary" id="saveEdit">Guardar Cambios</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let datos = []; // Variable para almacenar los datos
+        let editIndex = -1; // Índice del registro que se está editando
+
+        // Función para cargar el archivo JSON
+        function cargarJSON(callback) {
+            const xhr = new XMLHttpRequest();
+            xhr.overrideMimeType("application/json");
+            xhr.open("GET", "formulario.json", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    callback(JSON.parse(xhr.responseText));
+                }
+            };
+            xhr.send(null);
+        }
+
+        // Llama a la función cargarJSON y carga el contenido en la tabla
+        cargarJSON(function(data) {
+            datos = data; // Guarda los datos en la variable
+            actualizarTabla();
+        });
+
+        // Función para actualizar la tabla
+        function actualizarTabla() {
+            const cuerpoTabla = document.querySelector("#datos tbody");
+            cuerpoTabla.innerHTML = ""; // Limpia la tabla
+
+            datos.forEach((item, index) => {
+                const fila = document.createElement("tr");
+                fila.innerHTML = `
+                    <th data-aos="zoom-in" data-aos-delay="100">${item.id}</th>
+                    <td data-aos="zoom-in" data-aos-delay="300">${item.estilo}</td>
+                    <td data-aos="zoom-in" data-aos-delay="400">${item.nombre}</td>
+                    <td data-aos="zoom-in" data-aos-delay="500">${item.titulo}</td>
+                    <td data-aos="zoom-in" data-aos-delay="600">${item.Año}</td>
+                    <td data-aos="zoom-in" data-aos-delay="800">${item.duracion}</td>
+                    <td data-aos="zoom-in" data-aos-delay="700">
+                        <button class="btn btn-primary btn-sm" onclick="editarRegistro(${index})">Editar</button>
+                        <button class="btn btn-danger btn-sm" onclick="eliminarRegistro(${index})">Borrar</button>
+                    </td>
+                `;
+                cuerpoTabla.appendChild(fila);
+            });
+        }
+
+        // Función para editar un registro
+        function editarRegistro(index) {
+            editIndex = index;
+            const item = datos[index];
+
+            document.getElementById("editEstilo").value = item.estilo;
+            document.getElementById("editNombre").value = item.nombre;
+            document.getElementById("editTitulo").value = item.titulo;
+            document.getElementById("editAño").value = item.Año;
+            document.getElementById("editDuracion").value = item.duracion;
+
+            const editModal = new bootstrap.Modal(document.getElementById("editModal"));
+            editModal.show();
+        }
+
+        // Función para guardar los cambios del registro editado
+        document.getElementById("saveEdit").addEventListener("click", function() {
+            const item = datos[editIndex];
+
+            item.estilo = document.getElementById("editEstilo").value;
+            item.nombre = document.getElementById("editNombre").value;
+            item.titulo = document.getElementById("editTitulo").value;
+            item.Año = document.getElementById("editAño").value;
+            item.duracion = document.getElementById("editDuracion").value;
+
+            actualizarTabla();
+            const editModal = bootstrap.Modal.getInstance(document.getElementById("editModal"));
+            editModal.hide();
+        });
+
+        // Función para eliminar un registro
+        function eliminarRegistro(index) {
+            datos.splice(index, 1); // Elimina el registro del array
+            actualizarTabla();
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+</body>
+
+</html>

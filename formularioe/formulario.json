@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "estilo": "Rock",
+        "nombre": "Alcoholica",
+        "titulo": "Celia",
+        "Año": "2017",
+        "duracion": "2:55" 
+    },    
+    {
+        "id": 2,
+        "estilo": "pop",
+        "nombre": "Bruno Mars",
+        "titulo": "APT",
+        "Año": "2024",
+        "duracion": "3:05"
+    },
+    {
+        "id": 3,
+        "estilo": "balada",
+        "nombre": "Reik",
+        "titulo": "inovidable",
+        "Año": "2005",
+        "duracion": "2:30"
+    },
+    {
+        "id": 4,
+        "estilo": "Cumbia",
+        "nombre": "BonnyLovy",
+        "titulo": "Esa Muchachita",
+        "Año": "2017",
+        "duracion": "3:00"
+    },
+    {
+        "id": 5,
+        "estilo": "disco",
+        "nombre": "Tiesto",
+        "titulo": "falling love",
+        "Año": "2011",
+        "duracion": "4:22"
+    }
+]

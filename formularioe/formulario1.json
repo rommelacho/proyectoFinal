@@ -1,0 +1,192 @@
+{
+    "id":1,
+    "bandas": [
+        {
+            "nombre": "Riffs Poderosos",
+            "titulo": "Tormenta Eléctrica",
+            "Año": "2021",
+            "duracion": "3:40"
+        },
+        {
+            "nombre": "Sonido Distinto",
+            "titulo": "Mundo Paralelo",
+            "Año": "2019",
+            "duracion": "4:10"
+        },
+        {
+            "nombre": "Vibraciones Vintage",
+            "titulo": "Amanecer Dorado",
+            "Año": "1976",
+            "duracion": "5:15"
+        },
+        {
+            "nombre": "Nuevas Ondas",
+            "titulo": "Sueños de Papel",
+            "Año": "2020",
+            "duracion": "3:25"
+        },
+        {
+            "nombre": "Rebelión Sonora",
+            "titulo": "Rugido Urbano",
+            "Año": "2018",
+            "duracion": "2:45"
+        },
+        {
+            "nombre": "Épicas Melodías",
+            "titulo": "Horizonte Infinito",
+            "Año": "1985",
+            "duracion": "7:30"
+        },
+        {
+            "nombre": "Estrellas Brillantes",
+            "titulo": "Noche de Luces",
+            "Año": "1974",
+            "duracion": "4:05"
+        },
+        {
+            "nombre": "Sonido Crudo",
+            "titulo": "Despertar Sombrío",
+            "Año": "1993",
+            "duracion": "5:00"
+        },
+        {
+            "nombre": "Viajantes de la Mente",
+            "titulo": "Colores en el Viento",
+            "Año": "1969",
+            "duracion": "6:20"
+        },
+        {
+            "nombre": "Ritmos de Garaje",
+            "titulo": "Noche en la Ciudad",
+            "Año": "2005",
+            "duracion": "3:55"
+        }
+    ],
+    "id":2,
+    "bandas2": [
+        {
+            "nombre": "Ariana Grande",
+            "titulo": "Thank U, Next",
+            "Año": "2018",
+            "duracion": "3:27"
+        },
+        {
+            "nombre": "Taylor Swift",
+            "titulo": "Shake It Off",
+            "Año": "2014",
+            "duracion": "3:39"
+        },
+        {
+            "nombre": "The Weekend",
+            "titulo": "Blinding Lights",
+            "Año": "2019",
+            "duracion": "3:20"
+        },
+        {
+            "nombre": "Dua Lipa",
+            "titulo": "Levitating",
+            "Año": "2020",
+            "duracion": "3:23"
+        },
+        {
+            "nombre": "Sonido Pop",
+            "titulo": "Días de Sol",
+            "Año": "2021",
+            "duracion": "3:15"
+        },
+        {
+            "nombre": "Melodías Ficticias",
+            "titulo": "Viento en el Pelo",
+            "Año": "2022",
+            "duracion": "3:40"
+        },
+        {
+            "nombre": "Ritmo Alegre",
+            "titulo": "Bailando Juntos",
+            "Año": "2020",
+            "duracion": "3:10"
+        },
+        {
+            "nombre": "Luis Fonsi",
+            "titulo": "Despacito",
+            "Año": "2017",
+            "duracion": "3:47"
+        },
+        {
+            "nombre": "Selena Gomez",
+            "titulo": "Lose You to Love Me",
+            "Año": "2019",
+            "duracion": "3:26"
+        },
+        {
+            "nombre": "Canto Pop",
+            "titulo": "Noche de Fiesta",
+            "Año": "2022",
+            "duracion": "3:50"
+        }
+    ],
+    
+    "id":3,
+    "bandas3": [
+        {
+            "nombre": "Adele",
+            "titulo": "Someone Like You",
+            "Año": "2011",
+            "duracion": "4:45"
+        },
+        {
+            "nombre": "Ed Sheeran",
+            "titulo": "Perfect",
+            "Año": "2017",
+            "duracion": "4:23"
+        },
+        {
+            "nombre": "Whitney Houston",
+            "titulo": "I Will Always Love You",
+            "Año": "1992",
+            "duracion": "4:31"
+        },
+        {
+            "nombre": "Celine Dion",
+            "titulo": "My Heart Will Go On",
+            "Año": "1997",
+            "duracion": "4:40"
+        },
+        {
+            "nombre": "Baladas Sentimentales",
+            "titulo": "Sueños de Amor",
+            "Año": "2021",
+            "duracion": "3:50"
+        },
+        {
+            "nombre": "Luis Miguel",
+            "titulo": "La Incondicional",
+            "Año": "1988",
+            "duracion": "4:15"
+        },
+        {
+            "nombre": "Románticos Ficticios",
+            "titulo": "Bajo la Luna",
+            "Año": "2022",
+            "duracion": "4:05"
+        },
+        {
+            "nombre": "Sam Smith",
+            "titulo": "Stay With Me",
+            "Año": "2014",
+            "duracion": "2:52"
+        },
+        {
+            "nombre": "Balada Suave",
+            "titulo": "Melodía en el Corazón",
+            "Año": "2020",
+            "duracion": "3:30"
+        },
+        {
+            "nombre": "Aerosmith",
+            "titulo": "I Don't Want to Miss a Thing",
+            "Año": "1998",
+            "duracion": "4:59"
+        }
+    ]
+    }

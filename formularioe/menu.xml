@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <rock>
+        <item>
+            <id>2</id>
+            <estilo>Rock</estilo>
+            <nombre>The Rolling Stones</nombre>
+            <titulo>Paint It Black</titulo>
+            <Año>1966</Año>
+            <duracion>3:45</duracion>
+        </item>
+        <item>
+            <id>3</id>
+            <estilo>Rock</estilo>
+            <nombre>Queen</nombre>
+            <titulo>Bohemian Rhapsody</titulo>
+            <Año>1975</Año>
+            <duracion>5:55</duracion>
+        </item>
+        <item>
+            <id>4</id>
+            <estilo>Rock</estilo>
+            <nombre>Led Zeppelin</nombre>
+            <titulo>Stairway to Heaven</titulo>
+            <Año>1971</Año>
+            <duracion>8:02</duracion>
+        </item>
+        <item>
+            <id>5</id>
+            <estilo>Rock</estilo>
+            <nombre>Nirvana</nombre>
+            <titulo>Smells Like Teen Spirit</titulo>
+            <Año>1991</Año>
+            <duracion>5:01</duracion>
+        </item>
+        <item>
+            <id>6</id>
+            <estilo>Rock</estilo>
+            <nombre>AC/DC</nombre>
+            <titulo>Back in Black</titulo>
+            <Año>1980</Año>
+            <duracion>4:15</duracion>
+        </item>
+        <item>
+            <id>7</id>
+            <estilo>Rock</estilo>
+            <nombre>Guns N' Roses</nombre>
+            <titulo>Sweet Child o' Mine</titulo>
+            <Año>1987</Año>
+            <duracion>5:56</duracion>
+        </item>
+        <item>
+            <id>8</id>
+            <estilo>Rock</estilo>
+            <nombre>Metallica</nombre>
+            <titulo>Enter Sandman</titulo>
+            <Año>1991</Año>
+            <duracion>5:32</duracion>
+        </item>
+        <item>
+            <id>9</id>
+            <estilo>Rock</estilo>
+            <nombre>The Beatles</nombre>
+            <titulo>Hey Jude</titulo>
+            <Año>1968</Año>
+            <duracion>7:11</duracion>
+        </item>
+        <item>
+            <id>10</id>
+            <estilo>Rock</estilo>
+            <nombre>The Doors</nombre>
+            <titulo>Light My Fire</titulo>
+            <Año>1967</Año>
+            <duracion>7:05</duracion>
+        </item>
+        <item>
+            <id>11</id>
+            <estilo>Rock</estilo>
+            <nombre>Pink Floyd</nombre>
+            <titulo>Another Brick in the Wall</titulo>
+            <Año>1979</Año>
+            <duracion>5:38</duracion>
+        </item>
+    </rock>
+    <pop>
+        <item>
+            <id>1</id>
+            <estilo>Pop</estilo>
+            <nombre>Taylor Swift</nombre>
+            <titulo>Shake It Off</titulo>
+            <Año>2014</Año>
+            <duracion>3:39</duracion>
+        </item>
+        <item>
+            <id>2</id>
+            <estilo>Pop</estilo>
+            <nombre>Adele</nombre>
+            <titulo>Rolling in the Deep</titulo>
+            <Año>2010</Año>
+            <duracion>3:48</duracion>
+        </item>
+        <item>
+            <id>3</id>
+            <estilo>Pop</estilo>
+            <nombre>Bruno Mars</nombre>
+            <titulo>Uptown Funk</titulo>
+            <Año>2014</Año>
+            <duracion>4:30</duracion>
+        </item>
+        <item>
+            <id>4</id>
+            <estilo>Pop</estilo>
+            <nombre>Katy Perry</nombre>
+            <titulo>Roar</titulo>
+            <Año>2013</Año>
+            <duracion>3:43</duracion>
+        </item>
+        <item>
+            <id>5</id>
+            <estilo>Pop</estilo>
+            <nombre>Ed Sheeran</nombre>
+            <titulo>Shape of You</titulo>
+            <Año>2017</Año>
+            <duracion>3:53</duracion>
+        </item>
+        <item>
+            <id>6</id>
+            <estilo>Pop</estilo>
+            <nombre>Billie Eilish</nombre>
+            <titulo>Bad Guy</titulo>
+            <Año>2019</Año>
+            <duracion>3:14</duracion>
+        </item>
+        <item>
+            <id>7</id>
+            <estilo>Pop</estilo>
+            <nombre>Justin Bieber</nombre>
+            <titulo>Sorry</titulo>
+            <Año>2015</Año>
+            <duracion>3:20</duracion>
+        </item>
+        <item>
+            <id>8</id>
+            <estilo>Pop</estilo>
+            <nombre>Ariana Grande</nombre>
+            <titulo>Thank U, Next</titulo>
+            <Año>2018</Año>
+            <duracion>3:27</duracion>
+        </item>
+        <item>
+            <id>9</id>
+            <estilo>Pop</estilo>
+            <nombre>Selena Gomez</nombre>
+            <titulo>Bad Liar</titulo>
+            <Año>2017</Año>
+            <duracion>3:34</duracion>
+        </item>
+        <item>
+            <id>10</id>
+            <estilo>Pop</estilo>
+            <nombre>Shawn Mendes</nombre>
+            <titulo>Stitches</titulo>
+            <Año>2015</Año>
+            <duracion>3:29</duracion>
+        </item>
+    </pop>
+    <cumbia>
+        <item>
+            <id>1</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Los Ángeles Azules</nombre>
+            <titulo>Cómo Te Voy a Olvidar</titulo>
+            <Año>1996</Año>
+            <duracion>4:13</duracion>
+        </item>
+        <item>
+            <id>2</id>
+            <estilo>Cumbia</estilo>
+            <nombre>La Sonora Dinamita</nombre>
+            <titulo>Escándalo</titulo>
+            <Año>1986</Año>
+            <duracion>3:25</duracion>
+        </item>
+        <item>
+            <id>3</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Los Bukis</nombre>
+            <titulo>Quiéreme</titulo>
+            <Año>1993</Año>
+            <duracion>4:37</duracion>
+        </item>
+        <item>
+            <id>4</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Los Kumbia Kings</nombre>
+            <titulo>No Tengo Dinero</titulo>
+            <Año>1999</Año>
+            <duracion>3:35</duracion>
+        </item>
+        <item>
+            <id>5</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Grupo Niche</nombre>
+            <titulo>Cali Pachanguero</titulo>
+            <Año>1984</Año>
+            <duracion>4:51</duracion>
+        </item>
+        <item>
+            <id>6</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Rigo Tovar</nombre>
+            <titulo>Mi Matamoros Querido</titulo>
+            <Año>1982</Año>
+            <duracion>4:21</duracion>
+        </item>
+        <item>
+            <id>7</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Banda El Recodo</nombre>
+            <titulo>Te Presumo</titulo>
+            <Año>2008</Año>
+            <duracion>3:22</duracion>
+        </item>
+        <item>
+            <id>8</id>
+            <estilo>Cumbia</estilo>
+            <nombre>La Sonora Santanera</nombre>
+            <titulo>La Boa</titulo>
+            <Año>1959</Año>
+            <duracion>3:31</duracion>
+        </item>
+        <item>
+            <id>9</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Celso Piña</nombre>
+            <titulo>Cumbia Sobre el Río</titulo>
+            <Año>2001</Año>
+            <duracion>3:52</duracion>
+        </item>
+        <item>
+            <id>10</id>
+            <estilo>Cumbia</estilo>
+            <nombre>Los Palmeras</nombre>
+            <titulo>Bombón Asesino</titulo>
+            <Año>2004</Año>
+            <duracion>3:14</duracion>
+        </item>
+
+    </cumbia>
+    <regueton>
+        <item>
+            <id>1</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Daddy Yankee</nombre>
+            <titulo>Gasolina</titulo>
+            <Año>2004</Año>
+            <duracion>3:12</duracion>
+        </item>
+        <item>
+            <id>2</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Bad Bunny</nombre>
+            <titulo>Safaera</titulo>
+            <Año>2020</Año>
+            <duracion>4:55</duracion>
+        </item>
+        <item>
+            <id>3</id>
+            <estilo>Reguetón</estilo>
+            <nombre>J Balvin</nombre>
+            <titulo>Mi Gente</titulo>
+            <Año>2017</Año>
+            <duracion>3:09</duracion>
+        </item>
+        <item>
+            <id>4</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Ozuna</nombre>
+            <titulo>Taki Taki</titulo>
+            <Año>2018</Año>
+            <duracion>3:52</duracion>
+        </item>
+        <item>
+            <id>5</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Karol G</nombre>
+            <titulo>Tusa</titulo>
+            <Año>2019</Año>
+            <duracion>3:21</duracion>
+        </item>
+        <item>
+            <id>6</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Maluma</nombre>
+            <titulo>Felices los 4</titulo>
+            <Año>2017</Año>
+            <duracion>4:10</duracion>
+        </item>
+        <item>
+            <id>7</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Nicky Jam</nombre>
+            <titulo>El Perdón</titulo>
+            <Año>2015</Año>
+            <duracion>3:26</duracion>
+        </item>
+        <item>
+            <id>8</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Farruko</nombre>
+            <titulo>Krippy Kush</titulo>
+            <Año>2017</Año>
+            <duracion>3:51</duracion>
+        </item>
+        <item>
+            <id>9</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Don Omar</nombre>
+            <titulo>Danza Kuduro</titulo>
+            <Año>2010</Año>
+            <duracion>3:19</duracion>
+        </item>
+        <item>
+            <id>10</id>
+            <estilo>Reguetón</estilo>
+            <nombre>Wisin y Yandel</nombre>
+            <titulo>Algo Me Gusta de Ti</titulo>
+            <Año>2012</Año>
+            <duracion>4:23</duracion>
+        </item>
+
+    </regueton>
+    <disco>
+        <item>
+            <id>1</id>
+            <estilo>Disco</estilo>
+            <nombre>Bee Gees</nombre>
+            <titulo>Stayin' Alive</titulo>
+            <Año>1977</Año>
+            <duracion>4:45</duracion>
+        </item>
+        <item>
+            <id>2</id>
+            <estilo>Disco</estilo>
+            <nombre>Donna Summer</nombre>
+            <titulo>Hot Stuff</titulo>
+            <Año>1979</Año>
+            <duracion>5:13</duracion>
+        </item>
+        <item>
+            <id>3</id>
+            <estilo>Disco</estilo>
+            <nombre>Gloria Gaynor</nombre>
+            <titulo>I Will Survive</titulo>
+            <Año>1978</Año>
+            <duracion>3:18</duracion>
+        </item>
+        <item>
+            <id>4</id>
+            <estilo>Disco</estilo>
+            <nombre>Kool and The Gang</nombre>
+            <titulo>Celebration</titulo>
+            <Año>1980</Año>
+            <duracion>4:58</duracion>
+        </item>
+        <item>
+            <id>5</id>
+            <estilo>Disco</estilo>
+            <nombre>Chic</nombre>
+            <titulo>Le Freak</titulo>
+            <Año>1978</Año>
+            <duracion>3:30</duracion>
+        </item>
+        <item>
+            <id>6</id>
+            <estilo>Disco</estilo>
+            <nombre>Village People</nombre>
+            <titulo>Y.M.C.A.</titulo>
+            <Año>1978</Año>
+            <duracion>4:47</duracion>
+        </item>
+        <item>
+            <id>7</id>
+            <estilo>Disco</estilo>
+            <nombre>ABBA</nombre>
+            <titulo>Dancing Queen</titulo>
+            <Año>1976</Año>
+            <duracion>3:52</duracion>
+        </item>
+        <item>
+            <id>8</id>
+            <estilo>Disco</estilo>
+            <nombre>Earth, Wind and Fire</nombre>
+            <titulo>September</titulo>
+            <Año>1978</Año>
+            <duracion>3:35</duracion>
+        </item>
+        <item>
+            <id>9</id>
+            <estilo>Disco</estilo>
+            <nombre>The Trammps</nombre>
+            <titulo>Disco Inferno</titulo>
+            <Año>1976</Año>
+            <duracion>10:51</duracion>
+        </item>
+        <item>
+            <id>10</id>
+            <estilo>Disco</estilo>
+            <nombre>Diana Ross</nombre>
+            <titulo>Upside Down</titulo>
+            <Año>1980</Año>
+            <duracion>4:06</duracion>
+        </item>
+
+    </disco>
+</menu>

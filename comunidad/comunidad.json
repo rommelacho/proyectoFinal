@@ -1,0 +1,27 @@
+[
+    {
+        "titulo": "Foros sobre música",
+        "parrafo": "Únete a nuestros foros para debatir sobre tus bandas favoritas, analizar las últimas tendencias musicales y compartir recomendaciones. Desde el pop más popular hasta el indie más underground, todos los géneros tienen su espacio.",
+        "imagen": "<nav class=\"container-md\"><img data-aos=\"zoon-in\" src=\"../IMAGENES/5comu2.gif\" class=\"imagen-contenedor w-100\"></nav>"
+          
+          
+    },
+    {
+        "titulo": "Grupos de fans de géneros",
+        "parrafo": "Conéctate con otros fans que comparten tu amor por géneros específicos. Ya seas un amante del rock clásico, un entusiasta del jazz, o un seguidor del techno, encontrarás grupos dedicados a cada estilo musical donde podrás intercambiar experiencias, noticias y eventos.",
+        "imagen": "<nav class=\"container-md\"><img data-aos=\"zoon-in\" src=\"../IMAGENES/5comu3.gif\" class=\"imagen-contenedor w-100\"></nav>"
+
+    },
+    {
+        "titulo": "Conciertos y eventos musicales",
+        "parrafo": "Mantente al tanto de los conciertos y eventos musicales más importantes. Nuestra sección de eventos te permitirá conocer las fechas de tus artistas favoritos, encontrar información sobre festivales y descubrir actuaciones locales que no querrás perderte.",
+        "imagen": "<nav class=\"container-md\"><img data-aos=\"zoon-in\" src=\"../IMAGENES/5comu4.gif\" class=\"imagen-contenedor w-100\"></nav>"
+
+    },
+    {
+        "titulo": "Encuentros para compartir música",
+        "parrafo": "Participa en encuentros presenciales o virtuales donde podrás compartir y descubrir música. Desde sesiones de escucha colectiva hasta clubes de vinilo, nuestras reuniones son el lugar perfecto para conectarte con otros apasionados y expandir tus horizontes musicales.",
+        "imagen": ""
+
+    }
+]

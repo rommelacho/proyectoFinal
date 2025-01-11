@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Sugerencias de música según gustos",
+        "parrafo": "Recibe recomendaciones personalizadas basadas en tus preferencias. Analizamos tus hábitos de escucha para sugerirte nuevas canciones y géneros que podrías disfrutar. Descubre música nueva adaptada a tus gustos.",
+        "iframe": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3RFjAylVH5JXWkD2q4TDfg?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "titulo": "Listas de reproducción personalizadas",
+        "parrafo": "Crea listas de reproducción únicas para cada ocasión. Generamos playlists basadas en tus géneros favoritos y actividades diarias. Comparte y colabora con amigos para una experiencia musical personalizada.",
+        "iframe": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/41a6ouuVzboOYNjOkQlCl9?utm_source=generator' width='100%' height='352' frameborder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
+    },
+    {
+        "titulo": "Nuevos artistas o géneros para explorar",
+        "parrafo": "Descubre nuevos talentos y géneros emergentes. Te presentamos artistas prometedores y estilos innovadores que podrían convertirse en tus favoritos. Mantén tu música fresca explorando nuevos sonidos.",
+        "iframe": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/37i9dQZF1DXbJMiQ53rTyJ?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "titulo": "Videos de conciertos o clips",
+        "parrafo": "Disfruta de conciertos en vivo y videoclips de tus artistas favoritos. Sumérgete en actuaciones en vivo, grabaciones inéditas y momentos icónicos. Mantente al día con nuestra biblioteca de videos actualizada.",
+        "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/k76BgIb89-s?si=sPPooVcAy149izzH&amp;start=30\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+]
